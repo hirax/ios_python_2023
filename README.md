@@ -28,3 +28,10 @@ _carnets_uikit_take_pick_photo
 下記行が向けていたので修正
 
 img  = Image.open('_take.jpg')
+
+- 修正 0004:2023/11/26
+speech/speech_recognizer.py
+
+self.speech_recognizer = SFSpeechRecognizer.alloc().initWithLocale(locale)
+
+と修正
